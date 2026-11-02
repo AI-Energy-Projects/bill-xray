@@ -1,0 +1,81 @@
+{
+  "riverbend_tou_summer.pdf": {
+    "utility": "Riverbend Electric",
+    "plan": "Residential Time-of-Use 4-9 PM (TOU-49)",
+    "period_start": "2026-07-03",
+    "period_end": "2026-08-01",
+    "total_kwh": 856,
+    "total_due": 347.78,
+    "periods": [
+      {
+        "label": "On-Peak (4 PM - 9 PM)",
+        "kind": "peak",
+        "kwh": 212,
+        "rate": 0.52,
+        "amount": 110.24
+      },
+      {
+        "label": "Off-Peak",
+        "kind": "off_peak",
+        "kwh": 486,
+        "rate": 0.34,
+        "amount": 165.24
+      },
+      {
+        "label": "Super Off-Peak (9 AM - 2 PM)",
+        "kind": "super_off_peak",
+        "kwh": 158,
+        "rate": 0.29,
+        "amount": 45.82
+      }
+    ]
+  },
+  "lakeshore_tou_winter.pdf": {
+    "utility": "Lakeshore Energy Cooperative",
+    "plan": "Time of Day Residential (R-TOD)",
+    "period_start": "2026-01-05",
+    "period_end": "2026-02-03",
+    "total_kwh": 780,
+    "total_due": 259.42,
+    "periods": [
+      {
+        "label": "Peak 5-8 PM weekdays",
+        "kind": "peak",
+        "kwh": 138,
+        "rate": 0.41,
+        "amount": 56.58
+      },
+      {
+        "label": "Off Peak all other hours",
+        "kind": "off_peak",
+        "kwh": 642,
+        "rate": 0.24,
+        "amount": 154.08
+      }
+    ]
+  },
+  "prairie_flat_rate.pdf": {
+    "utility": "Prairie Power Cooperative",
+    "plan": "Standard Residential (R-1)",
+    "period_start": "2026-06-10",
+    "period_end": "2026-07-09",
+    "total_kwh": 774,
+    "total_due": 145.81,
+    "periods": [
+      {
+        "label": "Tier 1 (first 500 kWh)",
+        "kind": "tier",
+        "kwh": 500,
+        "rate": 0.16,
+        "amount": 80.0
+      },
+      {
+        "label": "Tier 2 (above 500 kWh)",
+        "kind": "tier",
+        "kwh": 274,
+        "rate": 0.19,
+        "amount": 52.06
+      }
+    ]
+  }
+}
