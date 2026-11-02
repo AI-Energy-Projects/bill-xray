@@ -1,0 +1,5 @@
+   docling>=2.15
+   reportlab>=4.0
+   streamlit>=1.40
+   pandas>=2.0
+   pytest>=8.0
